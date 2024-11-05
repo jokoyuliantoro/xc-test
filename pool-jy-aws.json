@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "name": "jy-aws",
+    "namespace": "joko-yuliantoro",
+    "labels": {},
+    "annotations": {},
+    "disable": false
+  },
+  "spec": {
+    "origin_servers": [
+      {
+        "public_ip": {
+          "ip": "18.138.24.223"
+        },
+        "labels": {}
+      }
+    ],
+    "no_tls": {},
+    "port": 80,
+    "same_as_endpoint_port": {},
+    "healthcheck": [],
+    "loadbalancer_algorithm": "LB_OVERRIDE",
+    "endpoint_selection": "LOCAL_PREFERRED"
+  }
+}
